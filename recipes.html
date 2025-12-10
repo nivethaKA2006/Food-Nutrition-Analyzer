@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recipes — Nutrition Analyzer</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container wide">
+      <a class="brand" href="/">Nutrition Analyzer</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/analyze">Analyze</a>
+        <a href="/nutrients">Nutrients</a>
+        <a href="/tips">Tips</a>
+        <a class="active" href="/recipes">Recipes</a>
+        <a href="/about">About</a>
+      </nav>
+    </div>
+
+    <!-- Search Section -->
+    <div class="container">
+      <h1 class="page-title">Healthy Recipes Finder</h1>
+
+      <div class="recipe-search-box">
+        <input type="text" id="recipeSearch" placeholder="Search healthy recipes...">
+      </div>
+
+      <!-- Search Results with Images -->
+      <div id="recipeResults" class="recipe-card-container"></div>
+    </div>
+  </header>
+
+  <main class="container wide">
+    <section class="panel">
+      <h2>Healthy Recipes</h2>
+
+      <div class="grid-2">
+        <div class="card recipe">
+          <h3>Grilled Chicken & Quinoa Salad</h3>
+          <p>Lean protein + quinoa + mixed greens. Ready in 25 minutes.</p>
+        </div>
+
+        <div class="card recipe">
+          <h3>Overnight Oats with Berries</h3>
+          <p>High-fiber breakfast with oats, milk/yoghurt and fresh berries.</p>
+        </div>
+
+        <div class="card recipe">
+          <h3>Baked Salmon & Veggies</h3>
+          <p>Omega-3 rich salmon with roasted broccoli and sweet potato.</p>
+        </div>
+
+        <div class="card recipe">
+          <h3>Lentil & Veg Soup</h3>
+          <p>Comforting protein-rich soup loaded with vegetables.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container wide">© 2025 Nutrition Analyzer</div>
+  </footer>
+
+
+  <!-- ===================== -->
+  <!--     RECIPE SEARCH     -->
+  <!-- ===================== -->
+   <!-- Search Results -->
+<div id="recipeResults" style="margin-top:12px;"></div>
+
+<script>
+const recipes = [
+    { name: "Oats Banana Smoothie", link: "https://food.ndtv.com/recipe-banana-oats-smoothie-954547" },
+    { name: "Grilled Chicken Salad", link: "https://simplefitmeals.com/recipe/grilled-chicken-salad/" },
+    { name: "Fruit & Nut Bowl", link: "https://www.healthline.com/nutrition/fruit-nut-bowl" },
+    { name: "Vegetable Soup", link: "https://www.allrecipes.com/recipe/13047/basic-vegetable-soup/" },
+    { name: "Green Detox Juice", link: "https://simplegreensmoothies.com/green-juice-recipe/" },
+    { name: "Sprouts Salad", link: "https://www.indianhealthyrecipes.com/moong-sprouts-salad/" },
+    { name: "Avocado Toast", link: "https://www.loveandlemons.com/avocado-toast/" },
+    { name: "Moong Sprouts Salad", link: "https://www.indianhealthyrecipes.com/moong-sprouts-salad/" },
+    { name: "Masala Oats", link: "https://www.vegrecipesofindia.com/masala-oats-recipe/" },
+    { name: "Vegetable Upma", link: "https://www.indianhealthyrecipes.com/upma-recipe/" },
+    { name: "Vegetable Poha", link: "https://www.indianhealthyrecipes.com/poha-recipe-kanda-poha/" },
+    { name: "Green Moong Dal Soup", link: "https://www.tarladalal.com/moong-dal-soup-31139r" },
+    { name: "Ragi Dosa", link: "https://www.indianhealthyrecipes.com/ragi-dosa-recipe/" },
+    { name: "Chickpea Salad", link: "https://www.indianhealthyrecipes.com/chickpea-salad-recipe/" },
+    { name: "Vegetable Sambar", link: "https://www.indianhealthyrecipes.com/sambar-recipe/" },
+    { name: "Vegetable Khichdi", link: "https://www.vegrecipesofindia.com/moong-dal-khichdi-recipe/" },
+    { name: "Curd Rice", link: "https://www.indianhealthyrecipes.com/curd-rice-recipe/" },
+    { name: "Oats Idli", link: "https://www.vegrecipesofindia.com/oats-idli-recipe/" },
+    { name: "Tomato Rasam", link: "https://www.indianhealthyrecipes.com/rasam-recipe/" },
+    { name: "Palak Soup", link: "https://www.vegrecipesofindia.com/palak-soup-spinach-soup-recipe/" },
+    { name: "Cabbage Stir Fry", link: "https://www.vegrecipesofindia.com/cabbage-sabzi/" },
+    { name: "Lemon Rice", link: "https://www.indianhealthyrecipes.com/lemon-rice-recipe/" }
+];
+
+
+document.getElementById("recipeSearch").addEventListener("input", function () {
+    let query = this.value.toLowerCase();
+    let results = recipes.filter(r => r.name.toLowerCase().includes(query));
+
+    let output = results
+        .map(r => `<p><a href="${r.link}" target="_blank">${r.name}</a></p>`)
+        .join("");
+
+    document.getElementById("recipeResults").innerHTML =
+        output || "<p>No matching recipes found.</p>";
+});
+</script>
+</body>
+</html>

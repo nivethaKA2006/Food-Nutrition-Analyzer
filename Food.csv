@@ -1,0 +1,367 @@
+Food,Cuisine,Category,Calories,Protein,Carbs,Fat
+Idly,Indian,South Indian,58,2,12,0.4
+Dosa,Indian,South Indian,133,3,17,5
+Pongal,Indian,South Indian,250,6,32,10
+Upma,Indian,South Indian,222,5,27,10
+Poori,Indian,South Indian,330,6,23,22
+Vada,Indian,South Indian,97,2,8,6
+Lemon Rice,Indian,South Indian,240,4,38,6
+Sambar Rice,Indian,South Indian,180,6,30,3
+Curd Rice,Indian,South Indian,220,7,34,4
+Rasam,Indian,South Indian,70,2,10,2
+Chapati,Indian,Main Course,120,3,18,3
+Chapati & Veg Curry,Indian,Main Course,210,6,32,4
+Parotta,Indian,South Indian,300,5,42,12
+Egg Curry,Indian,Main Course,230,14,6,16
+Fish Fry,Indian,Side Dish,180,22,3,9
+Chicken Biryani,Indian,Main Course,292,25,30,9
+Mutton Biryani,Indian,Main Course,340,20,32,16
+Veg Biryani,Indian,Main Course,240,4,35,8
+Chicken Curry,Indian,Main Course,210,23,8,9
+Mutton Curry,Indian,Main Course,260,22,5,17
+Dal Tadka,Indian,North Indian,190,10,22,8
+Paneer Butter Masala,Indian,North Indian,350,8,12,28
+Aloo Paratha,Indian,North Indian,290,6,48,12
+Chole Bhature,Indian,North Indian,427,12,50,20
+Rajma Chawal,Indian,North Indian,350,12,54,8
+Palak Paneer,Indian,North Indian,285,11,14,22
+Kaju Curry,Indian,North Indian,360,7,20,28
+Chicken Tandoori,Indian,North Indian,265,30,6,12
+Butter Naan,Indian,North Indian,320,7,45,12
+Gobi Manchurian,Indian,Indo-Chinese,160,4,18,8
+Veg Fried Rice,Chinese,Main Course,290,6,52,8
+Chicken Fried Rice,Chinese,Main Course,330,16,52,12
+Schezwan Noodles,Chinese,Main Course,320,8,45,12
+Chilli Chicken,Chinese,Main Course,280,20,18,11
+Spring Roll,Chinese,Starter,145,3,16,7
+Paneer Noodles,Chinese,Main Course,310,12,42,11
+Pizza Margherita,Italian,Main Course,300,12,44,10
+Veg Pizza,Italian,Main Course,340,14,48,12
+Pepperoni Pizza,Italian,Main Course,380,16,36,18
+Pasta Alfredo,Italian,Main Course,420,15,56,18
+Pasta Arrabbiata,Italian,Main Course,360,12,52,10
+Garlic Bread,Italian,Starter,206,5,24,8
+Caesar Salad,American,Salad,180,7,11,12
+Greek Salad,Mediterranean,Salad,120,4,10,7
+Shawarma,Middle Eastern,Wrap,450,22,40,20
+Hummus & Pita,Middle Eastern,Snack,300,11,36,10
+Falafel,Middle Eastern,Snack,180,6,15,9
+Pad Thai,Asian,Main Course,380,12,55,14
+Fried Rice (Thai),Asian,Main Course,330,8,45,12
+Teriyaki Chicken,Japanese,Main Course,300,26,20,8
+Sushi (California Roll),Japanese,Main Course,255,9,38,8
+Ramen,Japanese,Main Course,440,14,60,14
+Pancakes,American,Breakfast,227,6,28,10
+Waffles,American,Breakfast,310,7,34,15
+Omelette (3 eggs),Global,Breakfast,220,18,2,16
+Fruit Salad,Global,Healthy,90,2,22,0
+Veg Soup,Global,Healthy,70,3,10,1
+Chicken Soup,Global,Healthy,160,20,10,4
+Sprouts Salad,Indian,Healthy,100,8,18,1
+Oats Bowl,Global,Healthy,180,6,30,4
+Green Smoothie,Global,Healthy,140,3,25,2
+Protein Shake,Global,Healthy,120,24,4,1
+Grilled Chicken,Global,Healthy,220,35,0,8
+Steamed Vegetables,Global,Healthy,80,3,12,1
+Apple,Global,Fruit,52,0.5,14,0.1
+Banana,Global,Fruit,105,1,27,0.3
+Orange,Global,Fruit,62,1,15,0.2
+Grapes,Global,Fruit,69,1,18,0.2
+Watermelon,Global,Fruit,46,1,11,0
+Mango,Global,Fruit,99,1,25,0.6
+Pineapple,Global,Fruit,82,1,22,0.2
+Kiwi,Global,Fruit,61,1,14,0.5
+Pomegranate,Global,Fruit,83,1.7,19,1.2
+Strawberries,Global,Fruit,33,1,8,0.3
+Blueberries,Global,Fruit,57,1,14,0.3
+Avocado,Global,Fruit,160,2,9,15
+Milk,Global,Dairy,103,8,12,2.4
+Curd,Indian,Dairy,98,11,3.4,4
+Paneer,Indian,Dairy,265,18,6,21
+Cheese Slice,American,Dairy,113,7,1,9
+Yogurt,Global,Dairy,59,10,3,0.4
+Butter,Global,Dairy,717,1,0,81
+Egg Boiled,Global,Protein,78,6,0.6,5
+Chicken Breast,Global,Protein,165,31,0,3.6
+Mutton Kebab,Indian,Starter,290,19,5,21
+Fish Curry,Indian,Main Course,200,22,6,8
+Prawn Fry,Indian,Side Dish,210,24,5,11
+Vegetable Pulao,Indian,Main Course,250,5,40,6
+Masala Dosa,Indian,South Indian,240,5,30,10
+Rava Dosa,Indian,South Indian,190,4,25,7
+Pesarattu,Indian,South Indian,180,8,26,4
+Bread Omelette,Indian,Breakfast,220,9,18,11
+Cornflakes & Milk,Global,Breakfast,210,7,42,2
+Upma Kozhukattai,Indian,South Indian,190,4,30,6
+Kesari,Indian,Sweet,210,2,35,8
+Ladoo,Indian,Sweet,186,3,22,9
+Gulab Jamun,Indian,Sweet,150,2,30,5
+Rasgulla,Indian,Sweet,106,4,24,0.2
+Jalebi,Indian,Sweet,150,1,36,0.5
+Masala Dosa,Indian,South Indian,350,6,55,12
+Onion Uttapam,Indian,South Indian,280,5,45,10
+Rava Kesari,Indian,Sweet,250,3,40,8
+Medu Vada,Indian,South Indian,110,2,10,6
+Chicken Curry,Indian,Main Course,250,22,9,14
+Mushroom Biryani,Indian,Main Course,230,5,38,6
+Paneer Tikka,Indian,Starter,280,14,12,18
+Curd,Indian,Healthy,98,4,3,4
+Egg Biryani,Indian,Main Course,310,18,36,10
+Tomato Rice,Indian,South Indian,210,4,35,5
+Puliogare,Indian,South Indian,300,6,45,10
+Avial,Indian,Side Dish,140,3,12,8
+Kootu,Indian,South Indian,120,5,15,4
+Masala Poori,Indian,South Indian,350,7,30,20
+Chapati,Indian,Main Course,70,3,15,1
+Paneer Paratha,Indian,North Indian,320,12,38,14
+Veg Pulao,Indian,Main Course,220,5,35,6
+Egg Omelette,Global,Breakfast,150,10,2,12
+Fish Curry,Indian,Main Course,220,25,6,12
+Chicken Chettinad,Indian,South Indian,300,28,10,16
+Mutton Curry,Indian,Main Course,360,26,8,22
+Aloo Curry,Indian,Side Dish,180,3,24,7
+Soya Curry,Indian,Side Dish,210,15,20,8
+Paneer Bhurji,Indian,Side Dish,260,14,10,18
+Veg Kurma,Indian,Main Course,190,4,16,10
+Egg Fried Rice,Indian,Main Course,250,10,30,8
+Chilli Paneer,Indo-Chinese,Starter,280,12,18,16
+Veg Noodles,Chinese,Main Course,260,6,40,8
+Idiyappam,Indian,South Indian,140,3,28,1
+Kuzhi Paniyaram,Indian,South Indian,180,4,25,6
+Pesarattu,Indian,South Indian,210,8,32,5
+Chicken Sandwich,American,Snack,310,20,30,12
+Veg Sandwich,American,Snack,250,8,35,8
+Chocolate Cake,Global,Dessert,420,5,55,20
+Brownie,Global,Dessert,380,4,48,18
+Ice Cream (Vanilla),Global,Dessert,210,4,24,10
+Ice Cream (Chocolate),Global,Dessert,250,5,30,12
+Milkshake (Chocolate),Global,Drink,350,8,55,12
+Milkshake (Strawberry),Global,Drink,300,7,48,10
+Fruit Juice (Orange),Global,Drink,110,2,25,0
+Fruit Juice (Apple),Global,Drink,120,1,28,0
+Sweet Corn,Global,Snack,90,3,19,1
+Corn Soup,Global,Soup,140,4,20,5
+Veg Momos,Asian,Snack,150,4,22,4
+Chicken Momos,Asian,Snack,190,12,18,6
+Kebab (Chicken),Middle Eastern,Starter,250,22,8,12
+Kebab (Veg),Middle Eastern,Starter,180,6,20,8
+Shakshuka,Middle Eastern,Main Course,250,12,10,16
+Masala Dosa,Indian,South Indian,165,3,22,6
+Rava Dosa,Indian,South Indian,190,4,28,7
+Onion Uttapam,Indian,South Indian,250,5,32,9
+Kara Pongal,Indian,South Indian,280,7,34,12
+Curd Vada,Indian,South Indian,210,4,24,10
+Medu Vada,Indian,South Indian,97,2,8,6
+Mysore Bonda,Indian,South Indian,160,3,18,8
+Bhindi Fry,Indian,North Indian,120,2,10,8
+Baingan Bharta,Indian,North Indian,180,4,14,12
+Paneer Tikka,Indian,North Indian,280,18,10,16
+Masala Chai,Indian,Beverage,100,2,15,3
+Filter Coffee,Indian,Beverage,90,1,12,4
+Dal Makhani,Indian,North Indian,320,12,26,18
+Jeera Rice,Indian,North Indian,210,4,38,4
+Veg Pulao,Indian,Main Course,230,5,40,4
+Chicken Curry,Indian,Main Course,250,22,10,12
+Mutton Curry,Indian,Main Course,320,25,8,20
+Prawn Fry,Indian,Side Dish,190,21,5,9
+Egg Biryani,Indian,Main Course,290,13,34,10
+Curd,Global,Healthy,98,5,7,4
+Milk,Global,Beverage,150,8,12,8
+Lassi,Indian,Beverage,260,12,35,4
+Badam Milk,Indian,Beverage,210,7,24,10
+Vegetable Sandwich,Global,Fast Food,240,8,34,7
+Cheese Sandwich,Global,Fast Food,320,12,28,16
+Veg Burger,American,Fast Food,380,10,42,16
+Chicken Burger,American,Fast Food,480,25,40,25
+Chocolate Donut,American,Dessert,350,5,42,20
+Vanilla Ice Cream,American,Dessert,207,3,24,11
+Gulab Jamun,Indian,Dessert,280,4,30,14
+Rasgulla,Indian,Dessert,150,3,27,1
+Kesari,Indian,Dessert,250,3,40,8
+Payasam,Indian,Dessert,300,6,50,9
+Pav Bhaji,Indian,Street Food,400,8,45,20
+Vada Pav,Indian,Street Food,290,6,38,12
+Misal Pav,Indian,Street Food,350,12,40,14
+Poha,Indian,Breakfast,180,4,32,6
+Thepla,Indian,Breakfast,120,3,18,4
+Dhokla,Indian,Snack,150,6,22,4
+Kachori,Indian,Snack,280,5,30,15
+Samosa,Indian,Snack,250,4,30,12
+Kebab,Middle Eastern,Starter,230,18,5,14
+Baba Ganoush,Middle Eastern,Starter,140,3,12,8
+Fattoush,Mediterranean,Salad,160,3,18,7
+Bruschetta,Italian,Starter,170,4,24,6
+Lasagna,Italian,Main Course,450,18,48,22
+Risotto,Italian,Main Course,390,12,52,14
+Tacos,Mexican,Main Course,280,14,28,12
+Burrito,Mexican,Main Course,520,20,60,18
+Quesadilla,Mexican,Main Course,350,15,32,18
+Nachos,Mexican,Snack,320,6,42,14
+Sweet Corn Soup,Chinese,Starter,132,3,22,3
+Chicken Lollipop,Chinese,Starter,210,18,9,12
+Veg Momos,Tibetan,Snack,120,4,18,3
+Chicken Momos,Tibetan,Snack,180,12,20,5
+Pani Puri,Indian,Street Food,180,3,24,7
+Bhel Puri,Indian,Street Food,160,3,28,4
+Pav Bhaji,Indian,Street Food,400,10,45,20
+Vada Pav,Indian,Street Food,290,4,33,14
+Samosa,Indian,Snack,262,4,32,12
+Kachori,Indian,Snack,300,5,34,18
+Pakora,Indian,Snack,180,4,14,10
+Masala Dosa,Indian,South Indian,360,7,45,15
+Set Dosa,Indian,South Indian,280,5,36,12
+Ghee Roast,Indian,South Indian,420,6,48,20
+Mysore Masala Dosa,Indian,South Indian,390,7,50,18
+Chicken Curry,Indian,Main Course,290,28,8,12
+Mutton Curry,Indian,Main Course,360,25,6,22
+Paneer Tikka,Indian,Starter,260,12,14,18
+Veg Pulao,Indian,Main Course,210,4,32,7
+Curd,Global,Healthy,98,11,4,3
+Milk,Global,Dairy,103,8,12,2
+Lassi,Indian,Beverage,250,8,38,6
+Badam Milk,Indian,Beverage,180,6,20,8
+Tea,Global,Beverage,30,0,7,0
+Coffee,Global,Beverage,60,1,12,1
+Boost Drink,Indian,Beverage,120,4,22,1
+Horlicks Drink,Indian,Beverage,110,3,20,1
+Chocolate Milkshake,Global,Beverage,350,8,45,12
+Strawberry Milkshake,Global,Beverage,300,6,40,10
+Vanilla Milkshake,Global,Beverage,280,6,38,9
+Chicken Sandwich,American,Fast Food,290,20,24,12
+Veg Sandwich,American,Fast Food,230,8,28,7
+Chicken Wrap,American,Fast Food,350,25,30,12
+Veg Wrap,American,Fast Food,280,8,36,9
+Ice Cream Vanilla,Global,Dessert,207,3,24,11
+Ice Cream Chocolate,Global,Dessert,216,4,23,13
+Gulab Jamun,Indian,Dessert,300,5,45,10
+Rasgulla,Indian,Dessert,150,5,30,1
+Jalebi,Indian,Dessert,350,2,45,15
+Payasam,Indian,Dessert,260,6,32,12
+Kesari,Indian,Dessert,250,4,35,10
+Brownie,American,Dessert,466,6,60,22
+Chocolate Cake,Global,Dessert,340,5,48,14
+Donut,American,Dessert,260,4,31,14
+Croissant,French,Bakery,231,5,26,12
+Garlic Noodles,Asian,Main Course,340,8,48,12
+Fried Chicken,American,Fast Food,480,32,15,30
+Hot Dog,American,Fast Food,290,12,23,15
+Shawarma Plate,Middle Eastern,Main Course,520,32,40,28
+Beef Steak,American,Main Course,679,62,0,48
+Chicken Steak,American,Main Course,350,40,4,18
+Prawn Biryani,Indian,Main Course,310,18,36,8
+Egg Biryani,Indian,Main Course,280,13,35,10
+Bisi Bele Bath,Indian,South Indian,300,8,42,10
+Biscuits,Global,Snack,120,2,20,4
+Bread Omelette,Indian,Breakfast,250,12,22,12
+Puttu & Kadala,Indian,Kerala,350,9,55,12
+Appam & Stew,Indian,Kerala,330,7,44,12
+Idiyappam & Kurma,Indian,South Indian,310,6,52,9
+Chicken Kebab,Indian,Starter,240,26,6,10
+Mushroom Fry,Indian,Side Dish,180,6,20,8
+Paneer Bhurji,Indian,Side Dish,280,14,12,18
+Masala Papad,Indian,Snack,110,2,10,6
+Egg Fried Rice,Asian,Main Course,320,12,45,10
+Food,Cuisine,Category,Calories,Protein,Carbs,Fat
+Idli,Indian,South Indian,58,2,12,0.4
+Dosa,Indian,South Indian,133,3,17,5
+Masala Dosa,Indian,South Indian,240,5,30,10
+Set Dosa,Indian,South Indian,280,5,36,12
+Ragi Dosa,Indian,South Indian,230,6,30,9
+Pongal,Indian,South Indian,250,6,32,10
+Upma,Indian,South Indian,222,5,27,10
+Poori,Indian,South Indian,330,6,23,22
+Vada,Indian,South Indian,97,2,8,6
+Lemon Rice,Indian,South Indian,240,4,38,6
+Sambar Rice,Indian,South Indian,180,6,30,3
+Curd Rice,Indian,South Indian,220,7,34,4
+Rasam,Indian,South Indian,70,2,10,2
+Chapati,Indian,Main Course,120,3,18,3
+Chapati & Veg Curry,Indian,Main Course,210,6,32,4
+Parotta,Indian,South Indian,300,5,42,12
+Egg Curry,Indian,Main Course,230,14,6,16
+Fish Fry,Indian,Side Dish,180,22,3,9
+Chicken Biryani,Indian,Main Course,292,25,30,9
+Mutton Biryani,Indian,Main Course,340,20,32,16
+Veg Biryani,Indian,Main Course,240,4,35,8
+Chicken Curry,Indian,Main Course,210,23,8,9
+Mutton Curry,Indian,Main Course,260,22,5,17
+Dal Tadka,Indian,North Indian,190,10,22,8
+Paneer Butter Masala,Indian,North Indian,350,8,12,28
+Aloo Paratha,Indian,North Indian,290,6,48,12
+Chole Bhature,Indian,North Indian,427,12,50,20
+Rajma Chawal,Indian,North Indian,350,12,54,8
+Palak Paneer,Indian,North Indian,285,11,14,22
+Kaju Curry,Indian,North Indian,360,7,20,28
+Chicken Tandoori,Indian,North Indian,265,30,6,12
+Butter Naan,Indian,North Indian,320,7,45,12
+Gobi Manchurian,Indian,Indo-Chinese,160,4,18,8
+Veg Fried Rice,Chinese,Main Course,290,6,52,8
+Chicken Fried Rice,Chinese,Main Course,330,16,52,12
+Schezwan Noodles,Chinese,Main Course,320,8,45,12
+Chilli Chicken,Chinese,Main Course,280,20,18,11
+Spring Roll,Chinese,Starter,145,3,16,7
+Paneer Noodles,Chinese,Main Course,310,12,42,11
+Pizza Margherita,Italian,Main Course,300,12,44,10
+Veg Pizza,Italian,Main Course,340,14,48,12
+Pepperoni Pizza,Italian,Main Course,380,16,36,18
+Pasta Alfredo,Italian,Main Course,420,15,56,18
+Pasta Arrabbiata,Italian,Main Course,360,12,52,10
+Garlic Bread,Italian,Starter,206,5,24,8
+Caesar Salad,American,Salad,180,7,11,12
+Greek Salad,Mediterranean,Salad,120,4,10,7
+Shawarma,Middle Eastern,Wrap,450,22,40,20
+Hummus & Pita,Middle Eastern,Snack,300,11,36,10
+Falafel,Middle Eastern,Snack,180,6,15,9
+Pad Thai,Asian,Main Course,380,12,55,14
+Fried Rice (Thai),Asian,Main Course,330,8,45,12
+Teriyaki Chicken,Japanese,Main Course,300,26,20,8
+Sushi (California Roll),Japanese,Main Course,255,9,38,8
+Ramen,Japanese,Main Course,440,14,60,14
+Pancakes,American,Breakfast,227,6,28,10
+Waffles,American,Breakfast,310,7,34,15
+Omelette (3 eggs),Global,Breakfast,220,18,2,16
+Fruit Salad,Global,Healthy,90,2,22,0
+Veg Soup,Global,Healthy,70,3,10,1
+Chicken Soup,Global,Healthy,160,20,10,4
+Sprouts Salad,Indian,Healthy,100,8,18,1
+Oats Bowl,Global,Healthy,180,6,30,4
+Green Smoothie,Global,Healthy,140,3,25,2
+Protein Shake,Global,Healthy,120,24,4,1
+Grilled Chicken,Global,Healthy,220,35,0,8
+Steamed Vegetables,Global,Healthy,80,3,12,1
+Apple,Global,Fruit,52,0.5,14,0.1
+Banana,Global,Fruit,105,1,27,0.3
+Orange,Global,Fruit,62,1,15,0.2
+Grapes,Global,Fruit,69,1,18,0.2
+Watermelon,Global,Fruit,46,1,11,0
+Mango,Global,Fruit,99,1,25,0.6
+Pineapple,Global,Fruit,82,1,22,0.2
+Kiwi,Global,Fruit,61,1,14,0.5
+Pomegranate,Global,Fruit,83,1.7,19,1.2
+Strawberries,Global,Fruit,33,1,8,0.3
+Blueberries,Global,Fruit,57,1,14,0.3
+Avocado,Global,Fruit,160,2,9,15
+Milk,Global,Dairy,103,8,12,2.4
+Curd,Indian,Dairy,98,11,3.4,4
+Paneer,Indian,Dairy,265,18,6,21
+Cheese Slice,American,Dairy,113,7,1,9
+Yogurt,Global,Dairy,59,10,3,0.4
+Butter,Global,Dairy,717,1,0,81
+Egg Boiled,Global,Protein,78,6,0.6,5
+Chicken Breast,Global,Protein,165,31,0,3.6
+Mutton Kebab,Indian,Starter,290,19,5,21
+Fish Curry,Indian,Main Course,200,22,6,8
+Prawn Fry,Indian,Side Dish,210,24,5,11
+Vegetable Pulao,Indian,Main Course,250,5,40,6
+Masala Dosa,Indian,South Indian,240,5,30,10
+Rava Dosa,Indian,South Indian,190,4,25,7
+Pesarattu,Indian,South Indian,180,8,26,4
+Bread Omelette,Indian,Breakfast,220,9,18,11
+Cornflakes & Milk,Global,Breakfast,210,7,42,2
+Upma Kozhukattai,Indian,South Indian,190,4,30,6
+Kesari,Indian,Sweet,210,2,35,8
+Ladoo,Indian,Sweet,186,3,22,9
+Gulab Jamun,Indian,Sweet,150,2,30,5
+Rasgulla,Indian,Sweet,106,4,24,0.2
+Jalebi,Indian,Sweet,150,1,36,0.5
+

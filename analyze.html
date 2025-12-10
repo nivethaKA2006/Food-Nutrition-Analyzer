@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Analyze — Nutrition Analyzer</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container wide">
+      <a class="brand" href="/">Nutrition Analyzer</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a class="active" href="/analyze">Analyze</a>
+        <a href="/nutrients">Nutrients</a>
+        <a href="/tips">Tips</a>
+        <a href="/recipes">Recipes</a>
+        <a href="/about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container wide">
+    <section class="panel">
+      <h2>Analyze your meal</h2>
+      <p class="muted">Type what you ate (you can include quantities: e.g. <code>2 dosa, 1 apple, chicken biryani</code>)</p>
+
+      <div class="row">
+        <input id="foodInput" class="input" placeholder="e.g., 2 dosa and chicken biryani" />
+        <button id="analyzeBtn" class="btn primary">Analyze</button>
+      </div>
+
+      <div id="loading" class="loading" style="display:none">Analyzing…</div>
+
+      <div id="resultArea" style="display:none; margin-top:18px;">
+        <div class="card result-card">
+          <h3>Totals</h3>
+          <div id="totals" class="totals-grid">
+            <!-- filled by JS -->
+          </div>
+        </div>
+
+        <div id="details" style="margin-top:12px;"></div>
+      </div>
+
+      <div id="error" class="alert error" style="display:none"></div>
+   
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container wide">© 2025 Nutrition Analyzer</div>
+  </footer>
+
+<script>
+document.getElementById('analyzeBtn').addEventListener('click', analyzeFood);
+async function analyzeFood(){
+  const text = document.getElementById('foodInput').value.trim();
+  const errorEl = document.getElementById('error');
+  const loading = document.getElementById('loading');
+  errorEl.style.display='none';
+  if(!text){ errorEl.textContent = 'Please enter the foods you ate.'; errorEl.style.display='block'; return; }
+
+  loading.style.display = 'block';
+  document.getElementById('resultArea').style.display = 'none';
+
+  try{
+    const res = await fetch('/api/analyze', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ text })
+    });
+
+    const data = await res.json();
+    loading.style.display = 'none';
+    if(!res.ok){ errorEl.textContent = data.error || 'Server error'; errorEl.style.display='block'; return; }
+
+    // Totals
+    const totals = data.nutrition;
+    const totalsEl = document.getElementById('totals');
+    totalsEl.innerHTML = `
+      <div class="stat"><div class="stat-label">Foods</div><div class="stat-value">${totals.foods.join(', ')}</div></div>
+      <div class="stat"><div class="stat-label">Calories</div><div class="stat-value">${totals.Calories}</div></div>
+      <div class="stat"><div class="stat-label">Protein</div><div class="stat-value">${totals.Protein} g</div></div>
+      <div class="stat"><div class="stat-label">Carbs</div><div class="stat-value">${totals.Carbs} g</div></div>
+      <div class="stat"><div class="stat-label">Fat</div><div class="stat-value">${totals.Fat} g</div></div>
+    `;
+
+    // Recommendations / details
+   // Recommendations / details
+const details = document.getElementById('details');
+details.innerHTML = '';
+data.recommendations.forEach(r => {
+  const s = document.createElement('div');
+  s.className = 'card rec-card';
+  s.innerHTML = `<h4>${capitalize(r.food)}</h4>
+    <p><strong>Alternatives:</strong> ${r.alternatives.length ? r.alternatives.join(', ') : 'None'}</p>
+    <p><strong>Low-calorie Foods:</strong> ${r.low_calorie.length ? r.low_calorie.join(', ') : 'None'}</p>
+    <p><strong>High-protein Foods:</strong> ${r.high_protein.length ? r.high_protein.join(', ') : 'None'}</p>
+    <p><strong>Also include in your diet:</strong> ${r.additions && r.additions.length ? r.additions.join(', ') : 'None'}</p>`;  // <-- added line
+  details.appendChild(s);
+});
+
+
+    document.getElementById('resultArea').style.display = 'block';
+
+  }catch(e){
+    loading.style.display = 'none';
+    errorEl.textContent = 'Error connecting to backend.';
+    errorEl.style.display='block';
+  }
+}
+
+function capitalize(s){ if(typeof s !== 'string') return s; return s.split(' ').map(w=>w[0]?.toUpperCase()+w.slice(1)).join(' '); }
+</script>
+</body>
+</html>
